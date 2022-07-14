@@ -61,9 +61,8 @@ const Form = ({ closeModal }) => {
 
     return (
         <div className="app">
-            <div className="btn">  <button className="btn-cnl" onClick={() => closeModal(false)}>X</button></div>
-
             <form onSubmit={handleSubmit}>
+                <div className="btn">  <button className="btn-cnl" onClick={() => closeModal(false)}>X</button></div>
                 <h1>Task Addition</h1>
                 {inputs.map((input) => (
                     <FormInput

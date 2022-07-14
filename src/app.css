@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background-color: #141E61;
+  height: 84vh;
 }
 
 form {
@@ -41,11 +41,13 @@ button {
 }
 
 .btn {
-  display: block;
+  display: flex;
   justify-content: center;
-  padding: 10px;
+  /* padding: 10px; */
   position: relative;
-  top: -31%;
+  /* top: 4%; */
+  width: 46px;
+  right: 47px;
 
 }
 
@@ -57,4 +59,22 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #141E61;
+}
+
+.ttl {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 600;
+  background-color: #141E61;
+  color: #fff;
+}
+
+#root {
+  background-color: #141E61;
+  height: 100vh;
 }
